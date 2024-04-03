@@ -31,7 +31,7 @@ const Intro = () => {
         </div>
         {/* social icons */}
         <div className="i-icons">
-          <a href="https://github.com/jainanu" target="_blank" rel="noreferrer">
+          <a href="https://github.com/anushkajain2113" target="_blank" rel="noreferrer">
             <img src={Github} alt="" />
           </a>
           <a href="https://www.linkedin.com/in/anushka-jain-574530143/" target="_blank" rel="noreferrer">
