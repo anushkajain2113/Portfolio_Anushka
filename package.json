@@ -1,7 +1,7 @@
 {
   "name": "portofolio",
   "version": "0.1.0",
-  "homepage": "https://anushkajain2113.github.io/Portfolio_Anushkajain",
+  "homepage": "https://anushkajain2113.github.io/myapp",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.4.0",
