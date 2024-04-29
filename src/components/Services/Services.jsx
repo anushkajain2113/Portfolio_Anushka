@@ -24,7 +24,7 @@ const Services = () => {
         <span style={{ color: darkMode ? "#F1F1EE" : "" }}>My Awesome</span>
         <span>Skills</span>
         <a href={Resume} download>
-          <button className="button s-button">Download CV</button>
+          <button className="button s-button">Download Resume</button>
         </a>
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
       </div>
@@ -38,7 +38,7 @@ const Services = () => {
         >
           <Card
             heading={"Front-end"}
-            detail={"Html, Css, JavaScript, React, Bootstrap, JQuery, Drupal, PHP, Material Design, Typescript"}
+            detail={"HTML, CSS, JavaScript, React, Bootstrap, JQuery, Drupal, PHP, Material UI, Typescript, Tailwind CSS, Node.js, Redux, Postman, Rest API"}
           />
         </motion.div>
         {/* second card */}
@@ -49,7 +49,7 @@ const Services = () => {
         >
           <Card
             heading={"Design"}
-            detail={"Figma"}
+            detail={"Figma, Adobe"}
           />
         </motion.div>
         {/* 3rd */}
@@ -74,7 +74,7 @@ const Services = () => {
           <Card
             heading={"Other"}
             detail={
-              "AWS, Linux/Unix, Shell Scripting, Git, Docker, Ansible, XML, SVN, Jenkins, ERP-ECC(SAP), Agile Framework, Debugging, Testing"
+              "Animation, Blender, OpenGL, AWS, Linux/Unix, Shell Scripting, Git, Docker, Ansible, XML, JSON, SVN, Jenkins, ERP-ECC(SAP), Machine Learning, Tableau"
             }
             color="rgba(252, 166, 31, 0.45)"
           />

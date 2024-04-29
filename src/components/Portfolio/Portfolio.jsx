@@ -2,11 +2,11 @@ import React, { useContext } from "react";
 import "./Portfolio.css";
 import { Swiper, SwiperSlide } from "swiper/react"
 import "swiper/css";
-//import Project1 from "../../img/project1.png";
-//import Project2 from "../../img/project2.png";
-//import Project3 from "../../img/project3.png";
-//import Project4 from "../../img/project4.png";
-//import Project5 from "../../img/project5.png";
+import Project1 from "../../img/ShoppingAppwithCart.png";
+import Project2 from "../../img/Personal_Portfolio.png";
+import Project4 from "../../img/IronMan.png";
+import Project3 from "../../img/MusicPlayer.png";
+import Project5 from "../../img/SnakeGame.png";
 
 
 
@@ -27,52 +27,61 @@ const Portfolio = () => {
         slidesPerView={3}
         grabCursor={true}
         className="portfolio-slider"
-      // eslint-disable-next-line react/jsx-no-comment-textnodes
       >
-        {/*
-          <SwiperSlide>
-            <Project
-              className="project"
-              img={Project1}
-              heading={"Map Life"}
-              detail={"This is a live streaming platform combined with map. Tech: Spring boot, Maven, JPA, JavaScript, leadlet API, google map API and twilio API"}
-              darkMode={darkMode}
-              gitUrl={"https://github.com/jainanu/"}
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Project
-              className="project"
-              img={Project2}
-              heading={"Desk booking System"}
-              detail={"This is a booking system with the lottery function. Tech: Spring boot, Gradle, JDBC, JavaScript, GmailAPI"}
-              darkMode={darkMode}
-              gitUrl={"https://github.com/jainanu/office-desk-booking-system"}
-              //proUrl={""}
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Project
-              className="project"
-              img={Project3}
-              heading={"Personal Website"}
-              detail={"This is my personal portfolio. Tech: React"}
-              darkMode={darkMode}
-              gitUrl={"https://github.com/chansukman/personal-website-React"}
-              proUrl={"http://bookingsystem.shuwenchen.cf"}
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Project
-              className="project"
-              img={Project5}
-              heading={"clone-chatGPT"}
-              detail={"This is clone chatGPT. Tech: React, node.js, openAI"}
-              darkMode={darkMode}
-              gitUrl={"https://github.com/chansukman/react-chatgpt-clone"}
-            />
-          </SwiperSlide>
-  */}
+
+        <SwiperSlide>
+          <Project
+            img={Project1}
+            heading={"Shopping App with Cart"}
+            detail={"The Shopping App, constructed with HTML/CSS, employs JavaScript for dynamic interactions. React.js and Redux manage UI components and state, enhancing user experience."}
+            darkMode={darkMode}
+            gitUrl={"https://github.com/anushkajain2113/shoppinn"}
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <Project
+            className="project"
+            img={Project2}
+            heading={"Personal Website"}
+            detail={"This is my personal portfolio. Tech: React"}
+            darkMode={darkMode}
+            gitUrl={"https://github.com/anushkajain2113/myapp"}
+          //proUrl={"https://anushkajain2113.github.io/myapp/"}
+          />
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <Project
+            className="project"
+            img={Project3}
+            heading={"Music Player"}
+            detail={"This is Music Player. Tech: React, node.js"}
+            darkMode={darkMode}
+            gitUrl={"https://github.com/anushkajain2113"}
+          />
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <Project
+            className="project"
+            img={Project4}
+            heading={"Animation"}
+            detail={"Animation Effects and shadings using Blender"}
+            darkMode={darkMode}
+            gitUrl={"https://github.com/anushkajain2113/Animation-projects"}
+          />
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <Project
+            className="project"
+            img={Project5}
+            heading={"Snake Game"}
+            detail={"This is a snake game. Tech: React, HTML , Javascript, CSS"}
+            darkMode={darkMode}
+            gitUrl={"https://github.com/anushkajain2113"}
+          />
+        </SwiperSlide>
 
       </Swiper>
     </div>
