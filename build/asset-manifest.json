@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/myapp/static/css/main.f05032c8.css",
+    "main.js": "/myapp/static/js/main.8591f190.js",
+    "static/media/projects.jpeg": "/myapp/static/media/projects.10cd8e153f3f06ce8489.jpeg",
+    "static/media/resume.pdf": "/myapp/static/media/resume.89b1883dfb7577b8aeb5.pdf",
+    "static/media/girll.jpg": "/myapp/static/media/girll.847c1e9f557bd6626eee.jpg",
+    "static/media/wave.png": "/myapp/static/media/wave.d94d260f56df1d5c8823.png",
+    "index.html": "/myapp/index.html",
+    "main.f05032c8.css.map": "/myapp/static/css/main.f05032c8.css.map",
+    "main.8591f190.js.map": "/myapp/static/js/main.8591f190.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f05032c8.css",
+    "static/js/main.8591f190.js"
+  ]
+}
