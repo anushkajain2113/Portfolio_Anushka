@@ -1,17 +1,21 @@
 {
   "files": {
-    "main.css": "/myapp/static/css/main.f05032c8.css",
-    "main.js": "/myapp/static/js/main.8591f190.js",
+    "main.css": "/myapp/static/css/main.ef23ea28.css",
+    "main.js": "/myapp/static/js/main.c9028939.js",
+    "static/media/ShoppingAppwithCart.png": "/myapp/static/media/ShoppingAppwithCart.6a266cdb1f16fc269592.png",
     "static/media/projects.jpeg": "/myapp/static/media/projects.10cd8e153f3f06ce8489.jpeg",
-    "static/media/resume.pdf": "/myapp/static/media/resume.89b1883dfb7577b8aeb5.pdf",
+    "static/media/Personal_Portfolio.png": "/myapp/static/media/Personal_Portfolio.518891757cf4678496c1.png",
+    "static/media/IronMan.png": "/myapp/static/media/IronMan.039652cc7cf95c797c7b.png",
+    "static/media/resume.pdf": "/myapp/static/media/resume.f335b71c4530cefbc60f.pdf",
     "static/media/girll.jpg": "/myapp/static/media/girll.847c1e9f557bd6626eee.jpg",
     "static/media/wave.png": "/myapp/static/media/wave.d94d260f56df1d5c8823.png",
+    "static/media/SnakeGame.png": "/myapp/static/media/SnakeGame.8543397ad6a32022a973.png",
     "index.html": "/myapp/index.html",
-    "main.f05032c8.css.map": "/myapp/static/css/main.f05032c8.css.map",
-    "main.8591f190.js.map": "/myapp/static/js/main.8591f190.js.map"
+    "main.ef23ea28.css.map": "/myapp/static/css/main.ef23ea28.css.map",
+    "main.c9028939.js.map": "/myapp/static/js/main.c9028939.js.map"
   },
   "entrypoints": [
-    "static/css/main.f05032c8.css",
-    "static/js/main.8591f190.js"
+    "static/css/main.ef23ea28.css",
+    "static/js/main.c9028939.js"
   ]
 }
